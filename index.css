@@ -1,0 +1,65 @@
+body{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+   
+}
+.Navbar{
+    background-color: black;
+    display: flex;
+     position: sticky;
+    top: 0px;
+}
+ul li{
+  display: inline;
+  list-style: none;
+  color: white;
+  padding: 5px;
+  
+}
+p{
+    color: white;
+    margin-right: 950px;
+    margin-left: 30px;
+}
+.Section-2{
+    display: flex;
+}
+.sec1, .sec2{
+   width: 55%;
+   height: 500px;
+}
+.Section-3{
+    display: flex;
+  flex-wrap: wrap;
+}
+.Section-3 div{
+    margin: auto;
+    margin-bottom: 20px;
+     width: 30%;
+    border: 2px dotted black;
+    height: 250px;
+
+}
+ .Section-3 div img{
+    width: 100%;
+    height: 100%;
+ }
+ button{
+    background-color: black; 
+    color: white; 
+    margin-left: 24px;
+    padding:10px 30px ;
+  font-size: 1.2em;
+ }
+
+ button:hover{
+    cursor:pointer;
+    background-color: white;
+    color: black;
+ }
+
+li:hover{
+    color:brown;
+    cursor: pointer;
+}
